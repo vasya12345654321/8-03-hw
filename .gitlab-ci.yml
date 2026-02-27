@@ -3,6 +3,8 @@ stages:
 
 test-job:
   stage: test
+  tags:
+    - docker
   script:
     - echo "GitLab CI работает!"
     - echo "Задание 2 выполнено"
